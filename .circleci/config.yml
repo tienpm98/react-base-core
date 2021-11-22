@@ -7,7 +7,7 @@ orbs:
 jobs:
   build-and-push:
     environment:
-      DOCKER_IMAGE: tiempm24/react-core
+      DOCKER_IMAGE: tienpm24/react-core
       DOCKER_TAG: latest
     executor: docker/docker
     steps:
