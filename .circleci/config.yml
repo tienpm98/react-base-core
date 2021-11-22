@@ -32,11 +32,8 @@ workflows:
   pipeline:
     jobs:
       - build-and-push:
-      # only push if pass test
-      # requires:
-      #  - node/test
-        filers:
-          branches:
-            only:
-              - master
+          filters:
+            branches:
+              only:
+                - master
       
