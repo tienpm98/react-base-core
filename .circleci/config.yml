@@ -2,11 +2,11 @@ version: 2.1
 
 orbs:
   node: circleci/node@4.7
-  docker: circleci/docker@20.10.10
+  docker: circleci/docker@2.0.1
 
 jobs:
   build-and-push:
-    evironment:
+    environment:
       DOCKER_IMAGE: tiempm24/react-core
       DOCKER_TAG: latest
     executor: docker/docker
