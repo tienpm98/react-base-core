@@ -33,7 +33,7 @@ jobs:
     steps: 
       - add_ssh_keys: 
           fingerprints:
-            - "7b:fe:b9:2e:de:8c:5e:7b:49:16:a1:01:09:1f:19:e2"
+            - "ad:dc:0d:3f:a3:64:95:8f:a6:c7:31:9f:85:e4:c4:b8"
       - run: 
           name: AWS EC2 Deploy
           command: |
