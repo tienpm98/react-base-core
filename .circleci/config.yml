@@ -38,7 +38,7 @@ jobs:
           name: AWS EC2 Deploy
           command: |
              ssh -o StrictHostKeyChecking=no ubuntu@18.223.238.36 "./deploy.sh"
-             
+
 workflows:
   pipeline:
     jobs:
