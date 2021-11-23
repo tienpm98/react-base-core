@@ -34,7 +34,7 @@ jobs:
       - add_ssh_keys: 
           fingerprints:
             - "7b:fe:b9:2e:de:8c:5e:7b:49:16:a1:01:09:1f:19:e2"
-      - run: ssh -oStrictHostKeyChecking=no ubuntu@18.223.238.36 "cd /" "./deploy.sh"
+      - run: ssh -oStrictHostKeyChecking=no ubuntu@18.223.238.36 "./deploy.sh"
 
 workflows:
   pipeline:
