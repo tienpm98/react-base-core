@@ -31,7 +31,8 @@
 			"constants/*": ["./app/constants/*"],
 			"models/*": ["./app/models/*"],
 			"hooks/*": ["./app/hooks/*"],
-			"helper/*": ["./app/helper/*"]
+			"helper/*": ["./app/helper/*"],
+			"store/*": ["./app/store/*"]
 		}
 	}
 }
