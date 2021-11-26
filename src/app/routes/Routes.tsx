@@ -1,7 +1,7 @@
-import { IRoute } from 'models/IRoute'
 import React, { FC, Fragment, Suspense } from 'react'
 import { Route, Switch } from 'react-router'
 
+import { IRoute } from 'models/IRoute'
 import routesMap from './routesMap'
 
 const renderRoutes = (routes: IRoute[]) => {

@@ -1,7 +1,7 @@
-import { USER_ROLE } from 'constants/userRole'
 import React,{ FC, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 import { PATH_NAME } from './routesMap'
+import { USER_ROLE } from 'constants/userRole'
 
 type IProps = {
 	requireRoles: string[] | []

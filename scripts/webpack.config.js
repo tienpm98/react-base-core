@@ -20,6 +20,7 @@ module.exports = {
 			utils: path.resolve(__dirname, '../src/app/utils/'),
 			helper: path.resolve(__dirname, '../src/app/helper/'),
 			assets: path.resolve(__dirname, '../src/app/assets/'),
+			store: path.resolve(__dirname, '../src/app/store/'),
 		},
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 	},
