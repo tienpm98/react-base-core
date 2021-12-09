@@ -33,7 +33,7 @@ jobs:
     steps: 
       - add_ssh_keys: 
           fingerprints:
-            - "7b:fe:b9:2e:de:8c:5e:7b:49:16:a1:01:09:1f:19:e2"
+            - "af:dc:ba:f7:2c:f0:4b:ec:a5:8b:f1:75:0a:bf:ee:4c"
       - run: ssh -oStrictHostKeyChecking=no ubuntu@18.159.109.0 "~/./deploy.sh"
 
 workflows:
