@@ -1,9 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { stepReducer } from './Step'
+
 export const store = configureStore({
-	reducer: {
-		stepReducer,
-	},
+	reducer: {},
 })
 
 export type RootState = ReturnType<typeof store.getState>
