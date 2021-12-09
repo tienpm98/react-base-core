@@ -16,7 +16,7 @@ const RoleRoute: FC<IProps> = ({ children, requireRoles = [] }) => {
 
 		const checkRole = requireRoles.includes(role)
 		if (!checkRole) {
-			history.replace(PATH_NAME.ROOT)
+			history.replace(PATH_NAME.LOGIN)
 		}
 	}, [history, role, requireRoles])
 

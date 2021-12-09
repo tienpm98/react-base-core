@@ -32,7 +32,8 @@
 			"models/*": ["./app/models/*"],
 			"hooks/*": ["./app/hooks/*"],
 			"helper/*": ["./app/helper/*"],
-			"store/*": ["./app/store/*"]
+			"store": ["./app/store"],
+			"guards/*": ["./app/guards/*"]
 		}
 	}
 }
