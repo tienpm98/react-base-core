@@ -22,7 +22,7 @@
 		"checkJs": false,
 		"baseUrl": "./src",
 		"paths": {
-			"config": ["./environments/index.ts"],
+			"environments": ["../environments/index.tsx"],
 			"routes/*": ["./app/routes/*"],
 			"layouts/*": ["./app/layouts/*"],
 			"pages/*": ["./app/pages/*"],
@@ -32,8 +32,11 @@
 			"models/*": ["./app/models/*"],
 			"hooks/*": ["./app/hooks/*"],
 			"helper/*": ["./app/helper/*"],
-			"store": ["./app/store"],
-			"guards/*": ["./app/guards/*"]
+			"store/": ["./app/store/"],
+			"guards/*": ["./app/guards/*"],
+			"assets/*": ["./app/assets/*"],
+			"services/*": ["./app/services/*"],
+			"data/*": ["./app/data/*"],
 		}
 	}
 }

@@ -1,0 +1,146 @@
+[
+	{
+		"level": "1 - 20+",
+		"jade": {
+			"name": "Jade",
+			"color": "#56886d",
+			"number": 1
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 0
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 3
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "gray",
+			"number": 3
+		},
+		"mora": 20000
+	},
+	{
+		"level": "40 - 40+",
+		"jade": {
+			"name": "Jade",
+			"color": "#49768e",
+			"number": 3
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 2
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 10
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "gray",
+			"number": 15
+		},
+		"mora": 40000
+	},
+	{
+		"level": "50 - 50+",
+		"jade": {
+			"name": "Jade",
+			"color": "#49768e",
+			"number": 6
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 4
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 20
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "#56886d",
+			"number": 12
+		},
+		"mora": 60000
+	},
+	{
+		"level": "60 - 60+",
+		"jade": {
+			"name": "Jade",
+			"color": "#b183c3",
+			"number": 3
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 8
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 30
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "#56886d",
+			"number": 18
+		},
+		"mora": 80000
+	},
+	{
+		"level": "70 - 70+",
+		"jade": {
+			"name": "Jade",
+			"color": "#b183c3",
+			"number": 6
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 12
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 45
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "#49768e",
+			"number": 12
+		},
+		"mora": 100000
+	},
+	{
+		"level": "80 - 90",
+		"jade": {
+			"name": "Jade",
+			"color": "orange",
+			"number": 6
+		},
+		"item_boss": {
+			"name": "Item boss",
+			"color": "#b183c3",
+			"number": 20
+		},
+		"flower": {
+			"name": "Flower",
+			"color": "#7e8a96",
+			"number": 60
+		},
+		"item_map_1": {
+			"name": "Item map",
+			"color": "#49768e",
+			"number": 24
+		},
+		"mora": 120000
+	}
+]

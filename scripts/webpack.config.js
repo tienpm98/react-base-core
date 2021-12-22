@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
 
 module.exports = {
 	entry: {
@@ -8,7 +9,7 @@ module.exports = {
 
 	resolve: {
 		alias: {
-			config: path.resolve(__dirname, '../src/environments/'),
+			environments: path.resolve(__dirname, '../src/environments'),
 			layouts: path.resolve(__dirname, '../src/app/layouts'),
 			pages: path.resolve(__dirname, '../src/app/pages/'),
 			containers: path.resolve(__dirname, '../src/app/containers/'),
@@ -20,8 +21,10 @@ module.exports = {
 			utils: path.resolve(__dirname, '../src/app/utils/'),
 			helper: path.resolve(__dirname, '../src/app/helper/'),
 			assets: path.resolve(__dirname, '../src/app/assets/'),
-			store: path.resolve(__dirname, '../src/app/store'),
+			store: path.resolve(__dirname, '../src/app/store/'),
 			guards: path.resolve(__dirname, '../src/app/guards/'),
+			services: path.resolve(__dirname, '../src/app/services/'),
+			data: path.resolve(__dirname, '../src/app/data/'),
 		},
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 	},
@@ -81,6 +84,10 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: './public/index.html',
 			filename: './index.html',
+		}),
+
+		new webpack.ProvidePlugin({
+			process: 'process/browser',
 		}),
 	],
 

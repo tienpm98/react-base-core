@@ -4,6 +4,7 @@ const config = require('./webpack.config')
 const { merge } = require('webpack-merge')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports = merge(config, {
 	mode: 'production',
@@ -16,6 +17,10 @@ module.exports = merge(config, {
 		new CleanWebpackPlugin(),
 		new webpack.DefinePlugin({
 			NODE_ENV: JSON.stringify('production'),
+		}),
+
+		new Dotenv({
+			path: `./.env.production`,
 		}),
 	],
 

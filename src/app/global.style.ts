@@ -13,6 +13,11 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  h1, p {
+    margin: 0;
+  }
+  
   #root {
     height: 100%;
   }

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function useFormState<T>(key: string, initialValue?: T) {
+function useLocalStorage<T>(key: string, initialValue?: T) {
 	const [storedValue, setStoredValue] = useState<T>(() => {
 		try {
 			const item = window.localStorage.getItem(key)
@@ -27,4 +27,4 @@ function useFormState<T>(key: string, initialValue?: T) {
 	return [storedValue, setValue] as const
 }
 
-export { useFormState }
+export default useLocalStorage
