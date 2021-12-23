@@ -4,7 +4,6 @@ import { IRoute } from 'models/IRoute'
 import GuestGuard from 'guards/GuestGuard'
 
 import Dashboard from 'pages/Dashboard'
-import AuthGuard from 'guards/AuthGuard'
 import DashboardLayout from 'layouts/DashboardLayout'
 import { USER_ROLE } from 'constants/userRole'
 
@@ -39,7 +38,6 @@ const routesMap: IRoute[] = [
 
 	{
 		path: PATH_NAME.ROOT,
-		guard: AuthGuard,
 		layout: DashboardLayout,
 		routes: [
 			{
